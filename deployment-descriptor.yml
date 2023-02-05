@@ -1,7 +1,7 @@
 appname: vscode
 home: true
 app_service_config: Config/generic-boot-app.service
-bootcommand: code-server serve-local
+bootcommand: code-server serve-local --accept-server-license-terms
 test_domain: dev.annamalai.er.in
 application_type: PROXY_SITE
 proxy: http://localhost:8000/
