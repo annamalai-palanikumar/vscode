@@ -1,5 +1,5 @@
 appname: 'vscode'
 test_domain: 'dev.annamalai.er.in'
 application_type: PROXY_SITE
-proxy: http://localhost/
+proxy: http://localhost:8000/
 nginx_config: Config/site-proxy-nginx.conf
