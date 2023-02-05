@@ -1,0 +1,5 @@
+appname: 'vscode'
+prod_domain: 'dev.annamalai.er.in'
+application_type: 'HTTP_PORT_PROXY'
+nginx_config: 'Config/port-proxy-nginx.conf'
+port: '8000'
