@@ -1,8 +1,8 @@
 appname: 'vscode'
+user: ubuntu
 app_service_config: Config/generic-boot-app.service
 bootcommand: code-server serve-local
 test_domain: 'dev.annamalai.er.in'
 application_type: PROXY_SITE
 proxy: http://localhost:8000/
 nginx_config: Config/site-proxy-nginx.conf
-
